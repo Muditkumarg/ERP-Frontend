@@ -1,0 +1,9 @@
+.cardTitle {
+  text-align: center !important;
+}
+.feeBtn {
+  text-align: center !important;
+}
+#exampleFormControlInputFee::placeholder {
+  text-transform: uppercase !important;
+}
