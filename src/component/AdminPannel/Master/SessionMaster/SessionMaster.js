@@ -167,7 +167,7 @@ export default function SessionMasterPage() {
                                           {row.status === "1" ? (
                                             <button
                                               onClick={handleStatusUpdate}
-                                              class="btn btn-sm btn-primary"
+                                              class="btn-active btn btn-sm btn-primary"
                                               href=""
                                               id={row._id}
                                             >

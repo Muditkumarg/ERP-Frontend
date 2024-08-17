@@ -13,7 +13,9 @@
   cursor: pointer; */
   transition: all 0.3s ease-in-out;
 }
-
+.btn-active {
+  width: -webkit-fill-available;
+}
 .button:hover {
   transform: scale(1.1);
   background-color: green;

@@ -199,14 +199,14 @@ export default function NavSidePage({
                       >
                         Stream Master
                       </div>
-                      <div
+                      {/* <div
                         className={`dropdown-item ${
                           activeSubItem === "housemaster" ? "active" : ""
                         }`}
                         onClick={() => handleSubItemClick("housemaster")}
                       >
                         House Master
-                      </div>
+                      </div> */}
                       <div
                         className={`dropdown-item ${
                           activeSubItem === "doccumentmaster" ? "active" : ""
@@ -269,7 +269,7 @@ export default function NavSidePage({
                       >
                         State/City Master
                       </div>
-                      <a href="element.html" className="dropdown-item">
+                      {/* <a href="element.html" className="dropdown-item">
                         Deparment Designation Master
                       </a>
 
@@ -305,7 +305,7 @@ export default function NavSidePage({
                       </a>
                       <a href="element.html" className="dropdown-item">
                         Deparment Designation Master
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   <div className="nav-item dropdown">

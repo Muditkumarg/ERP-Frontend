@@ -14,7 +14,7 @@ import BloodGroupMaster from "./component/AdminPannel/Master/BloodGroupMaster/Bl
 import CastCategoryMaster from "./component/AdminPannel/Master/CastCategryMaster/CastCategoryMaster";
 import MaritalStatusMaster from "./component/AdminPannel/Master/MaritalStatusMaster/MaritalStatus";
 import ReligionMaster from "./component/AdminPannel/Master/ReligionMaster/Religion";
-// import StateCityMaster from "./component/AdminPannel/Master/State/CityMaster/stateCityMaster";
+import StateCityMaster from "./component/AdminPannel/Master/StateCityMaster/StateCityMaster";
 function App() {
   return (
     <>
@@ -44,7 +44,7 @@ function App() {
             element={<MaritalStatusMaster />}
           />
           <Route path="/religion-master" element={<ReligionMaster />} />
-          {/* <Route path="/state-city-master" element={<StateCityMaster />} /> */}
+          <Route path="/state-city-master" element={<StateCityMaster />} />
         </Routes>
       </BrowserRouter>
     </>
